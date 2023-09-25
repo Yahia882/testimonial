@@ -1,0 +1,215 @@
+
+html{
+box-sizing: border-box;
+background-color:  hsl(0, 0%, 100%);
+font-size: 13px;
+font-family: 'Barlow Semi Condensed', sans-serif;
+padding: 20px;
+font-weight: 300;
+background-color: hsl(210, 46%, 95%);
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+body{
+    
+}  
+
+  
+.container{
+    
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+    
+    
+}
+
+
+.main-left > div,.five{
+    padding: 5%;
+    
+    margin-bottom: 5%;
+    width: 100%;
+    border-radius: 6px;
+    
+   
+    
+    
+}
+.image{
+    border-radius: 0px;
+    width: 100px ;
+    height: 100px;
+    margin: 0px;
+    border: hidden;
+    position: absolute;
+    right: 10%;
+    z-index: 1;
+}
+img{
+    border-radius: 50%;
+    width: 10%;
+    height: 10%;
+    border:hsl(217, 19%, 35%) solid;
+    margin-right: 20px;
+    
+}
+.one{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background-color: hsl(263, 55%, 52%);
+    z-index: 0;
+}
+.heading1{
+    box-sizing: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    z-index: 2;
+
+}
+.nameContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 0%;
+
+}
+
+.heading1 .name{
+    margin-top: 8px;
+    padding-bottom: 5%;
+    height: 1px;
+    
+    
+}
+.heading1 .Verified{
+    margin-top: 0px;
+    opacity: 70%;
+    
+    height: 1px;;
+}
+ .description{
+    font-size: 20px;
+    font-weight: 600;
+    z-index: 2;
+    
+
+}
+
+.one.detailed-description{
+    opacity: 50%;
+    color: white;
+}
+.detailed-description{
+    opacity: 50%;
+}
+.one .description{
+    color: white;
+}
+.one .heading1{
+    color: white;
+}
+.one .detailed-description{
+    color: white;
+}
+.two{
+    background-color: hsl(217, 19%, 35%);
+    color: white;
+}
+.three{
+    color:hsl(217, 19%, 35%);
+
+}
+.three .heading1 img,.five .heading1 img{
+    border-style:hidden ;
+}
+.four{
+    background-color: hsl(219, 29%, 14%);
+    color: white;
+}
+.five{
+    color:hsl(217, 19%, 35%);
+}
+.three ,.five {
+    background-color: white;
+    
+}
+@media only screen and (min-width: 520px) {
+    html {
+      background-color: lightblue;
+    }
+    body{
+        margin: 5%;
+        margin-left:10%;
+        margin-right:10%; 
+    }
+    .container{
+        display: flex;
+        width :1178px;
+        height: 1273px;
+        
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+        
+
+        
+    }
+    .container .main-left{
+        
+        display: flex;
+        
+        justify-content: space-between;
+        flex-basis: 75%;
+        height:50%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 0px;
+        padding: 0px;
+    }
+    .main-left > div{
+        padding: 3%;
+        height: 50%;
+        border-radius: 6px;
+        
+    }
+    
+    img{
+        width: 30px;
+        height: 30px;
+        margin-top: 10px;
+    }
+    .two , .three{
+        flex-basis: 23%;
+        height: 48%;
+
+    }
+    .one , .four{
+        flex-basis: 73%;
+        height: 48%;
+    }
+    .container .one,.container .two{
+        margin-bottom:15px;
+    }
+    .container .five{
+        width: 23%;
+        height: 651px;
+        
+    }
+
+    
+  }
+
+
+
+
+
+
